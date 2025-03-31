@@ -9,7 +9,7 @@
         :navigation="true"
         :loop="true"
         :autoplay="{ delay: 3000, disableOnInteraction: false }"
-        class="mySwiper"
+        class="mySwiper1"
       >
         <!-- Slide 1: iPhone 16 Pro and Pro Max -->
         <swiper-slide>
@@ -51,7 +51,65 @@
             </div>
           </div>
         </swiper-slide>
+
       </swiper>
+
+      <swiper
+        :modules="modules"
+        :slides-per-view="1"
+        :space-between="50"
+        :pagination="{ clickable: true }"
+        :navigation="true"
+        :loop="true"
+        :autoplay="{ delay: 3000, disableOnInteraction: false }"
+        class="mySwiper2"
+      >
+        <!-- Slide 1: iPhone 16 Pro and Pro Max -->
+        <swiper-slide>
+          <div class="slide-content">
+            <div class="text-content">
+              <h1>iPhone 16 Pro and 16 Pro Max</h1>
+              <p>
+                Larger screen of 6.3" and 16 Pro Max to 6.9". The edge of the screen is shorter than before. Equipped with 48MP Fusion + 48MP Ultra Wide + 12MP 5x Telephoto can record 4K 120fps.
+              </p>
+            </div>
+            <div class="image-content">
+                <img src="https://example.com/iphone-16-pro.png" alt="iPhone 16 Pro">
+            </div>
+          </div>
+        </swiper-slide>
+  
+        <!-- Slide 2: Discount Banner -->
+        <swiper-slide>
+          <div class="slide-content discount-slide">
+            <div class="text-content">
+              <h1>Selected Item Up to 80% OFF</h1>
+              <p>Shop now and save big on your favorite tech!</p>
+            </div>
+            <div class="image-content">
+                <img src="https://example.com/iphone-16-pro.png" alt="iPhone 16 Pro">
+            </div>
+          </div>
+        </swiper-slide>
+  
+        <!-- Slide 3: Another iPhone Feature -->
+        <swiper-slide>
+          <div class="slide-content">
+            <div class="text-content">
+              <h1>Explore the New Colors</h1>
+              <p>Available in Black Titanium, White Titanium, Natural Titanium, and Desert Titanium.</p>
+            </div>
+            <div class="image-content">
+                <img src="https://example.com/iphone-16-pro.png" alt="iPhone 16 Pro">
+            </div>
+          </div>
+        </swiper-slide>
+
+      </swiper>
+
+      
+
+
     </div>
   </template>
   
@@ -80,14 +138,20 @@
   
   <style scoped>
   .carousel-container {
-    width: 100%;
-    max-width: 1200px;
+    width: 80%;
     margin: 0 auto;
     padding: 20px;
+    display:  flex;
+    justify-content: space-between;
   }
   
-  .mySwiper {
-    width: 100%;
+  .mySwiper1 {
+    width: 75%;
+    height: 400px;
+  }
+
+  .mySwiper2 {
+    width: 20%;
     height: 400px;
   }
   
