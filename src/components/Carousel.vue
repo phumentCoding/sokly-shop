@@ -17,36 +17,46 @@
                                         than before. Equipped with 48MP Fusion + 48MP Ultra Wide + 12MP 5x Telephoto can
                                         record 4K 120fps.
                                     </p>
+                                    <button class=" btn btn-primary ">Anviable Now</button>
                                 </div>
                                 <div class="image-content">
-                                    <img src="https://example.com/iphone-16-pro.png" alt="iPhone 16 Pro">
+                                    <img src="https://soklyphone.com/storage/SAMSUNG/Phone/Galaxy-S25-Ultra/titanium-silverblue-1737603606A6mvf.png" alt="iPhone 16 Pro">
                                 </div>
                             </div>
                         </swiper-slide>
 
                         <!-- Slide 2: Discount Banner -->
                         <swiper-slide>
-                            <div class="slide-content discount-slide">
+                            <div class="slide-content">
                                 <div class="text-content">
-                                    <h1>Selected Item Up to 80% OFF</h1>
-                                    <p>Shop now and save big on your favorite tech!</p>
+                                    <h1>iPhone 16 Pro and 16 Pro Max</h1>
+                                    <p>
+                                        Larger screen of 6.3" and 16 Pro Max to 6.9". The edge of the screen is shorter
+                                        than before. Equipped with 48MP Fusion + 48MP Ultra Wide + 12MP 5x Telephoto can
+                                        record 4K 120fps.
+                                    </p>
+                                    <button class=" btn btn-primary ">Anviable Now</button>
                                 </div>
                                 <div class="image-content">
-                                    <img src="https://example.com/iphone-16-pro.png" alt="iPhone 16 Pro">
+                                    <img src="https://soklyphone.com/storage/SAMSUNG/Phone/Galaxy-S25-Ultra/titanium-silverblue-1737603606A6mvf.png" alt="iPhone 16 Pro">
                                 </div>
                             </div>
                         </swiper-slide>
 
                         <!-- Slide 3: Another iPhone Feature -->
-                        <swiper-slide>
+                         <swiper-slide>
                             <div class="slide-content">
                                 <div class="text-content">
-                                    <h1>Explore the New Colors</h1>
-                                    <p>Available in Black Titanium, White Titanium, Natural Titanium, and Desert
-                                        Titanium.</p>
+                                    <h1>iPhone 16 Pro and 16 Pro Max</h1>
+                                    <p>
+                                        Larger screen of 6.3" and 16 Pro Max to 6.9". The edge of the screen is shorter
+                                        than before. Equipped with 48MP Fusion + 48MP Ultra Wide + 12MP 5x Telephoto can
+                                        record 4K 120fps.
+                                    </p>
+                                    <button class=" btn btn-primary ">Anviable Now</button>
                                 </div>
                                 <div class="image-content">
-                                    <img src="https://example.com/iphone-16-pro.png" alt="iPhone 16 Pro">
+                                    <img src="https://soklyphone.com/storage/SAMSUNG/Phone/Galaxy-S25-Ultra/titanium-silverblue-1737603606A6mvf.png" alt="iPhone 16 Pro">
                                 </div>
                             </div>
                         </swiper-slide>
@@ -71,7 +81,7 @@
                                 </p>
                             </div>
                             <div class="image-content">
-                                <img src="https://example.com/iphone-16-pro.png" alt="iPhone 16 Pro">
+                                <img src="https://soklyphone.com/storage/SAMSUNG/Phone/Galaxy-S25-Ultra/titanium-silverblue-1737603606A6mvf.png" alt="iPhone 16 Pro">
                             </div>
                         </div>
                     </swiper-slide>
@@ -136,9 +146,7 @@ export default {
 .carousel-container {
     width: 80%;
     margin: auto;
-
 }
-
 
 .swiper-slide {
     display: flex;
@@ -188,7 +196,7 @@ export default {
 
 .image-content img {
     max-width: 100%;
-    height: auto;
+    height: 300px;
     border-radius: 10px;
 }
 
