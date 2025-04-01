@@ -3,85 +3,30 @@
         <!-- Swiper Component -->
         <div class="row">
             <div class="col-lg-8">
-                <h1>
-                    <swiper :modules="modules" :slides-per-view="1" :space-between="50"
-                        :pagination="{ clickable: true }" :navigation="true" :loop="true"
-                        :autoplay="{ delay: 3000, disableOnInteraction: false }" class="mySwiper1">
-                        <!-- Slide 1: iPhone 16 Pro and Pro Max -->
-                        <swiper-slide>
-                            <div class="slide-content">
-                                <div class="text-content">
-                                    <h1>iPhone 16 Pro and 16 Pro Max</h1>
-                                    <p>
-                                        Larger screen of 6.3" and 16 Pro Max to 6.9". The edge of the screen is shorter
-                                        than before. Equipped with 48MP Fusion + 48MP Ultra Wide + 12MP 5x Telephoto can
-                                        record 4K 120fps.
-                                    </p>
-                                    <button class=" btn btn-primary ">Anviable Now</button>
-                                </div>
-                                <div class="image-content">
-                                    <img src="https://soklyphone.com/storage/SAMSUNG/Phone/Galaxy-S25-Ultra/titanium-silverblue-1737603606A6mvf.png" alt="iPhone 16 Pro">
-                                </div>
-                            </div>
-                        </swiper-slide>
-
-                        <!-- Slide 2: Discount Banner -->
-                        <swiper-slide>
-                            <div class="slide-content">
-                                <div class="text-content">
-                                    <h1>iPhone 16 Pro and 16 Pro Max</h1>
-                                    <p>
-                                        Larger screen of 6.3" and 16 Pro Max to 6.9". The edge of the screen is shorter
-                                        than before. Equipped with 48MP Fusion + 48MP Ultra Wide + 12MP 5x Telephoto can
-                                        record 4K 120fps.
-                                    </p>
-                                    <button class=" btn btn-primary ">Anviable Now</button>
-                                </div>
-                                <div class="image-content">
-                                    <img src="https://soklyphone.com/storage/SAMSUNG/Phone/Galaxy-S25-Ultra/titanium-silverblue-1737603606A6mvf.png" alt="iPhone 16 Pro">
-                                </div>
-                            </div>
-                        </swiper-slide>
-
-                        <!-- Slide 3: Another iPhone Feature -->
-                         <swiper-slide>
-                            <div class="slide-content">
-                                <div class="text-content">
-                                    <h1>iPhone 16 Pro and 16 Pro Max</h1>
-                                    <p>
-                                        Larger screen of 6.3" and 16 Pro Max to 6.9". The edge of the screen is shorter
-                                        than before. Equipped with 48MP Fusion + 48MP Ultra Wide + 12MP 5x Telephoto can
-                                        record 4K 120fps.
-                                    </p>
-                                    <button class=" btn btn-primary ">Anviable Now</button>
-                                </div>
-                                <div class="image-content">
-                                    <img src="https://soklyphone.com/storage/SAMSUNG/Phone/Galaxy-S25-Ultra/titanium-silverblue-1737603606A6mvf.png" alt="iPhone 16 Pro">
-                                </div>
-                            </div>
-                        </swiper-slide>
-
-                    </swiper>
-                </h1>
-            </div>
-
-            <div class="col-lg-4">
-                <swiper :modules="modules" :slides-per-view="1" :space-between="50" :pagination="{ clickable: true }"
-                    :navigation="true" :loop="true" :autoplay="{ delay: 3000, disableOnInteraction: false }"
-                    class="mySwiper2">
+                <swiper 
+                    :modules="modules" 
+                    :slides-per-view="1" 
+                    :space-between="50"
+                    :pagination="{ clickable: true }" 
+                    :navigation="true" 
+                    :loop="true"
+                    :autoplay="{ delay: 3000, disableOnInteraction: false }" 
+                    class="mySwiper1"
+                >
                     <!-- Slide 1: iPhone 16 Pro and Pro Max -->
                     <swiper-slide>
                         <div class="slide-content">
                             <div class="text-content">
                                 <h1>iPhone 16 Pro and 16 Pro Max</h1>
                                 <p>
-                                    Larger screen of 6.3" and 16 Pro Max to 6.9". The edge of the screen is shorter than
-                                    before. Equipped with 48MP Fusion + 48MP Ultra Wide + 12MP 5x Telephoto can record
-                                    4K 120fps.
+                                    Larger screen of 6.3" and 16 Pro Max to 6.9". The edge of the screen is shorter
+                                    than before. Equipped with 48MP Fusion + 48MP Ultra Wide + 12MP 5x Telephoto can
+                                    record 4K 120fps.
                                 </p>
+                                <button class="btn btn-primary">Available Now</button>
                             </div>
                             <div class="image-content">
-                                <img src="https://soklyphone.com/storage/SAMSUNG/Phone/Galaxy-S25-Ultra/titanium-silverblue-1737603606A6mvf.png" alt="iPhone 16 Pro">
+                                <img src="https://example.com/iphone-16-pro.png" alt="iPhone 16 Pro">
                             </div>
                         </div>
                     </swiper-slide>
@@ -92,54 +37,112 @@
                             <div class="text-content">
                                 <h1>Selected Item Up to 80% OFF</h1>
                                 <p>Shop now and save big on your favorite tech!</p>
+                                <button class="btn btn-primary">Shop Now</button>
                             </div>
                             <div class="image-content">
-                                <img src="https://example.com/iphone-16-pro.png" alt="iPhone 16 Pro">
+                                <img src="https://example.com/discount-banner.png" alt="Discount Offer">
                             </div>
                         </div>
                     </swiper-slide>
 
-                    <!-- Slide 3: Another iPhone Feature -->
+                    <!-- Slide 3: iPhone Colors -->
                     <swiper-slide>
                         <div class="slide-content">
                             <div class="text-content">
                                 <h1>Explore the New Colors</h1>
-                                <p>Available in Black Titanium, White Titanium, Natural Titanium, and Desert Titanium.
+                                <p>
+                                    Available in Black Titanium, White Titanium, 
+                                    Natural Titanium, and Desert Titanium.
+                                </p>
+                                <button class="btn btn-primary">View Colors</button>
+                            </div>
+                            <div class="image-content">
+                                <img src="https://example.com/iphone-colors.png" alt="iPhone Colors">
+                            </div>
+                        </div>
+                    </swiper-slide>
+                </swiper>
+            </div>
+
+            <div class="col-lg-4">
+                <swiper 
+                    :modules="modules" 
+                    :slides-per-view="1" 
+                    :space-between="50" 
+                    :pagination="{ clickable: true }"
+                    :navigation="true" 
+                    :loop="true" 
+                    :autoplay="{ delay: 3000, disableOnInteraction: false }"
+                    class="mySwiper2"
+                >
+                    <!-- Slide 1: iPhone Accessories -->
+                    <swiper-slide>
+                        <div class="slide-content">
+                            <div class="text-content">
+                                <h2>Premium Accessories</h2>
+                                <p>
+                                    Discover our collection of cases, chargers, and more.
                                 </p>
                             </div>
                             <div class="image-content">
-                                <img src="https://example.com/iphone-16-pro.png" alt="iPhone 16 Pro">
+                                <img src="https://example.com/accessories.png" alt="iPhone Accessories">
                             </div>
                         </div>
                     </swiper-slide>
 
+                    <!-- Slide 2: Trade-In Offer -->
+                    <swiper-slide>
+                        <div class="slide-content discount-slide">
+                            <div class="text-content">
+                                <h2>Trade-In Your Old Device</h2>
+                                <p>Get credit toward your new iPhone.</p>
+                            </div>
+                            <div class="image-content">
+                                <img src="https://example.com/trade-in.png" alt="Trade-In Offer">
+                            </div>
+                        </div>
+                    </swiper-slide>
+
+                    <!-- Slide 3: Warranty -->
+                    <swiper-slide>
+                        <div class="slide-content">
+                            <div class="text-content">
+                                <h2>Extended Warranty</h2>
+                                <p>
+                                    Protect your device with our premium coverage.
+                                </p>
+                            </div>
+                            <div class="image-content">
+                                <img src="https://example.com/warranty.png" alt="Warranty">
+                            </div>
+                        </div>
+                    </swiper-slide>
                 </swiper>
             </div>
         </div>
     </div>
 </template>
 
-<script>
-import { Swiper, SwiperSlide } from 'swiper/vue';
-import { Navigation, Pagination, Autoplay } from 'swiper/modules';
+<script setup>
+    import { Swiper, SwiperSlide } from 'swiper/vue';
+    import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 
-// Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
+    // Import Swiper styles
+    import 'swiper/css';
+    import 'swiper/css/navigation';
+    import 'swiper/css/pagination';
+    import { onMounted, ref } from 'vue';
+    import { getSlides } from '../services/slideService';
 
-export default {
-    name: 'Carousel',
-    components: {
-        Swiper,
-        SwiperSlide,
-    },
-    setup() {
-        return {
-            modules: [Navigation, Pagination, Autoplay],
-        };
-    },
-};
+    const modules = [Navigation, Pagination, Autoplay];
+
+    //create state
+    const slides = ref([]);
+
+    onMounted( async () => {
+        slides.value = await getSlides();
+    });
+
 </script>
 
 <style scoped>
@@ -180,9 +183,15 @@ export default {
     margin-bottom: 10px;
 }
 
+.text-content h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
 .text-content p {
     font-size: 1.2rem;
     color: #333;
+    margin-bottom: 15px;
 }
 
 .discount-slide .text-content p {
@@ -197,6 +206,7 @@ export default {
 .image-content img {
     max-width: 100%;
     height: 300px;
+    object-fit: contain;
     border-radius: 10px;
 }
 
@@ -209,4 +219,22 @@ export default {
 :deep(.swiper-button-prev) {
     color: #007aff;
 }
-</style>
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #007aff;
+    color: white;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0062cc;
+}
+</style> 

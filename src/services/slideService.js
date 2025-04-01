@@ -1,11 +1,10 @@
 import { api } from "./api"
 
-
 export const getSlides = async () => {
     try{
-        let response = await api.get('/slide');
-        return response.data.slides;
-
+        let response = await api.get('/slides');
+        console.log(response);
+        return response.data;
     }catch(error){
         console.error(error);
     }
