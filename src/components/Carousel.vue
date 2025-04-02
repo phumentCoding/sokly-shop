@@ -4,63 +4,32 @@
         <div class="row">
             <div class="col-lg-8">
                 <swiper 
+                    v-if="slides.length > 0"
                     :modules="modules" 
                     :slides-per-view="1" 
                     :space-between="50"
                     :pagination="{ clickable: true }" 
-                    :navigation="true" 
+                    :navigation="false" 
                     :loop="true"
                     :autoplay="{ delay: 3000, disableOnInteraction: false }" 
                     class="mySwiper1"
                 >
-                    <!-- Slide 1: iPhone 16 Pro and Pro Max -->
-                    <swiper-slide>
+                
+                    <swiper-slide v-for="slide in slides" :key="slide.id">
                         <div class="slide-content">
                             <div class="text-content">
-                                <h1>iPhone 16 Pro and 16 Pro Max</h1>
-                                <p>
-                                    Larger screen of 6.3" and 16 Pro Max to 6.9". The edge of the screen is shorter
-                                    than before. Equipped with 48MP Fusion + 48MP Ultra Wide + 12MP 5x Telephoto can
-                                    record 4K 120fps.
-                                </p>
-                                <button class="btn btn-primary">Available Now</button>
+                                <h1>{{ slide.title }}</h1>
+                                <p>{{ slide.desc }}</p>
+                                <button class="btn btn-primary">{{ slide.cta }}</button>
                             </div>
                             <div class="image-content">
-                                <img src="https://example.com/iphone-16-pro.png" alt="iPhone 16 Pro">
+                                <img :src="slide.image" alt="iPhone 16 Pro">
                             </div>
                         </div>
                     </swiper-slide>
 
-                    <!-- Slide 2: Discount Banner -->
-                    <swiper-slide>
-                        <div class="slide-content discount-slide">
-                            <div class="text-content">
-                                <h1>Selected Item Up to 80% OFF</h1>
-                                <p>Shop now and save big on your favorite tech!</p>
-                                <button class="btn btn-primary">Shop Now</button>
-                            </div>
-                            <div class="image-content">
-                                <img src="https://example.com/discount-banner.png" alt="Discount Offer">
-                            </div>
-                        </div>
-                    </swiper-slide>
+                   
 
-                    <!-- Slide 3: iPhone Colors -->
-                    <swiper-slide>
-                        <div class="slide-content">
-                            <div class="text-content">
-                                <h1>Explore the New Colors</h1>
-                                <p>
-                                    Available in Black Titanium, White Titanium, 
-                                    Natural Titanium, and Desert Titanium.
-                                </p>
-                                <button class="btn btn-primary">View Colors</button>
-                            </div>
-                            <div class="image-content">
-                                <img src="https://example.com/iphone-colors.png" alt="iPhone Colors">
-                            </div>
-                        </div>
-                    </swiper-slide>
                 </swiper>
             </div>
 
@@ -81,7 +50,7 @@
                             <div class="text-content">
                                 <h2>Premium Accessories</h2>
                                 <p>
-                                    Discover our collection of cases, chargers, and more.
+                                    Discove our collection of cases, chargers, and more.
                                 </p>
                             </div>
                             <div class="image-content">
@@ -132,7 +101,7 @@
     import 'swiper/css/navigation';
     import 'swiper/css/pagination';
     import { onMounted, ref } from 'vue';
-    import { getSlides } from '../services/slideService';
+    import { getSlides } from '../services/jsonService';
 
     const modules = [Navigation, Pagination, Autoplay];
 
