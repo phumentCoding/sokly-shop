@@ -28,5 +28,22 @@
             "desc": "Our most advanced watch yet. Featuring a brilliant Always-On Retina display, the new S9 chip enables faster performance and innovative new health features like temperature sensing and Crash Detection. Swimproof design with 36-hour battery life.",
             "cta": "Discover More"
         }
+    ],
+    "posters" : [
+        {
+           "id"   : 1,
+           "name" : "",
+           "iamge" : "https://soklyphone.com/storage/Advertises/2025/03-03-2025/hmd-skyline-5g-1-1742975248CG9Px.png"
+        },
+        {
+            "id"   : 1,
+            "name" : "",
+            "iamge" : "https://soklyphone.com/storage/Advertises/2025/03-03-2025/hmd-pulse-pro-1742971682k4ZpR.png"
+        },
+        {
+            "id"   : 1,
+            "name" : "",
+            "iamge" : "https://soklyphone.com/storage/Advertises/2025/03-03-2025/80-1742975713eOV2V.png"
+        }
     ]
 }
