@@ -20,3 +20,15 @@ export const getPosters = async () => {
         console.error(error);
     }
 }
+
+
+//service for get brands
+export const getBrands = async () => {
+    try{
+        let response = await api.get('/brands');
+        console.log(response.data);
+        return response.data;
+    }catch(error){
+        console.error(error);
+    }
+}
