@@ -1,5 +1,5 @@
 <template>
-    <div class="container my-5">
+    <div class="container-brand my-5">
       <h2 class="text-center mb-4">Popular Brands</h2>
       <div class="brand-grid">
         <div v-for="(brand, index) in brands" :key="index" class="brand-card">
@@ -9,7 +9,7 @@
     </div>
   </template>
   
-  <script setup>
+<script setup>
   import { onMounted, ref } from 'vue';
   import { getBrands } from '../services/jsonService';
   
@@ -18,9 +18,15 @@
   onMounted(async () => {
     brands.value = await getBrands();
   });
-  </script>
+</script>
   
   <style scoped>
+
+  .container-brand {
+    width: 80%;
+    margin: auto;
+  }
+
   .brand-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
@@ -40,7 +46,6 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 80px;
     background: #fff;
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
