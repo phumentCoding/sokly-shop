@@ -45,5 +45,301 @@
             "name" : "Poster3",
             "image" : "https://soklyphone.com/storage/Advertises/2025/03-03-2025/80-1742975713eOV2V.png"
         }
+    ],
+    "brands" : [
+        {
+            "id" : 1,
+            "name" : "apple",
+            "image" : "https://soklyphone.com/storage/Brand_Logo/new_logo/apple-logo-1660278979YARnJ.jpg",
+            "status" : "active"
+        },
+        {
+            "id" : 2,
+            "name" : "samsung",
+            "image" : "https://soklyphone.com/storage/Brand_Logo/new_logo/samsung-logo-1660279193xqNqc.jpg",
+            "status" : "active"
+        },
+        {
+            "id" : 3,
+            "name" : "suny",
+            "image" : "https://soklyphone.com/storage/Brand_Logo/new_logo/sony-logo-1660279321nrl38.jpg",
+            "status" : "active"
+        },
+        {
+            "id" : 4,
+            "name" : "suny",
+            "image" : "https://soklyphone.com/storage/Brand_Logo/new_logo/sony-logo-1660279321nrl38.jpg",
+            "status" : "active"
+        },
+        {
+            "id" : 5,
+            "name" : "apple",
+            "image" : "https://soklyphone.com/storage/Brand_Logo/new_logo/apple-logo-1660278979YARnJ.jpg",
+            "status" : "active"
+        },
+        {
+            "id" : 6,
+            "name" : "samsung",
+            "image" : "https://soklyphone.com/storage/Brand_Logo/new_logo/samsung-logo-1660279193xqNqc.jpg",
+            "status" : "active"
+        },
+        {
+            "id" : 7,
+            "name" : "suny",
+            "image" : "https://soklyphone.com/storage/Brand_Logo/new_logo/sony-logo-1660279321nrl38.jpg",
+            "status" : "active"
+        },
+        {
+            "id" : 8,
+            "name" : "suny",
+            "image" : "https://soklyphone.com/storage/Brand_Logo/new_logo/sony-logo-1660279321nrl38.jpg",
+            "status" : "active"
+        },
+        {
+            "id" : 9,
+            "name" : "apple",
+            "image" : "https://soklyphone.com/storage/Brand_Logo/new_logo/apple-logo-1660278979YARnJ.jpg",
+            "status" : "active"
+        },
+        {
+            "id" : 10,
+            "name" : "samsung",
+            "image" : "https://soklyphone.com/storage/Brand_Logo/new_logo/samsung-logo-1660279193xqNqc.jpg",
+            "status" : "active"
+        },
+        {
+            "id" : 11,
+            "name" : "suny",
+            "image" : "https://soklyphone.com/storage/Brand_Logo/new_logo/sony-logo-1660279321nrl38.jpg",
+            "status" : "active"
+        },
+        {
+            "id" : 12,
+            "name" : "suny",
+            "image" : "https://soklyphone.com/storage/Brand_Logo/new_logo/sony-logo-1660279321nrl38.jpg",
+            "status" : "active"
+        },
+        {
+            "id" : 13,
+            "name" : "apple",
+            "image" : "https://soklyphone.com/storage/Brand_Logo/new_logo/apple-logo-1660278979YARnJ.jpg",
+            "status" : "active"
+        },
+        {
+            "id" : 14,
+            "name" : "samsung",
+            "image" : "https://soklyphone.com/storage/Brand_Logo/new_logo/samsung-logo-1660279193xqNqc.jpg",
+            "status" : "active"
+        },
+        {
+            "id" : 15,
+            "name" : "suny",
+            "image" : "https://soklyphone.com/storage/Brand_Logo/new_logo/sony-logo-1660279321nrl38.jpg",
+            "status" : "active"
+        },
+        {
+            "id" : 16,
+            "name" : "suny",
+            "image" : "https://soklyphone.com/storage/Brand_Logo/new_logo/sony-logo-1660279321nrl38.jpg",
+            "status" : "active"
+        },
+        {
+            "id" : 17,
+            "name" : "apple",
+            "image" : "https://soklyphone.com/storage/Brand_Logo/new_logo/apple-logo-1660278979YARnJ.jpg",
+            "status" : "active"
+        },
+        {
+            "id" : 18,
+            "name" : "samsung",
+            "image" : "https://soklyphone.com/storage/Brand_Logo/new_logo/samsung-logo-1660279193xqNqc.jpg",
+            "status" : "active"
+        },
+        {
+            "id" : 19,
+            "name" : "suny",
+            "image" : "https://soklyphone.com/storage/Brand_Logo/new_logo/sony-logo-1660279321nrl38.jpg",
+            "status" : "active"
+        },
+        {
+            "id" : 20,
+            "name" : "suny",
+            "image" : "https://soklyphone.com/storage/Brand_Logo/new_logo/sony-logo-1660279321nrl38.jpg",
+            "status" : "active"
+        },
+        {
+            "id" : 21,
+            "name" : "apple",
+            "image" : "https://soklyphone.com/storage/Brand_Logo/new_logo/apple-logo-1660278979YARnJ.jpg",
+            "status" : "active"
+        },
+        {
+            "id" : 22,
+            "name" : "samsung",
+            "image" : "https://soklyphone.com/storage/Brand_Logo/new_logo/samsung-logo-1660279193xqNqc.jpg",
+            "status" : "active"
+        },
+        {
+            "id" : 23,
+            "name" : "suny",
+            "image" : "https://soklyphone.com/storage/Brand_Logo/new_logo/sony-logo-1660279321nrl38.jpg",
+            "status" : "active"
+        },
+        {
+            "id" : 24,
+            "name" : "suny",
+            "image" : "https://soklyphone.com/storage/Brand_Logo/new_logo/sony-logo-1660279321nrl38.jpg",
+            "status" : "active"
+        },
+        {
+            "id" : 25,
+            "name" : "apple",
+            "image" : "https://soklyphone.com/storage/Brand_Logo/new_logo/apple-logo-1660278979YARnJ.jpg",
+            "status" : "active"
+        },
+        {
+            "id" : 26,
+            "name" : "samsung",
+            "image" : "https://soklyphone.com/storage/Brand_Logo/new_logo/samsung-logo-1660279193xqNqc.jpg",
+            "status" : "active"
+        },
+        {
+            "id" : 27,
+            "name" : "suny",
+            "image" : "https://soklyphone.com/storage/Brand_Logo/new_logo/sony-logo-1660279321nrl38.jpg",
+            "status" : "active"
+        },
+        {
+            "id" : 28,
+            "name" : "suny",
+            "image" : "https://soklyphone.com/storage/Brand_Logo/new_logo/sony-logo-1660279321nrl38.jpg",
+            "status" : "active"
+        },
+        {
+            "id" : 29,
+            "name" : "apple",
+            "image" : "https://soklyphone.com/storage/Brand_Logo/new_logo/apple-logo-1660278979YARnJ.jpg",
+            "status" : "active"
+        },
+        {
+            "id" : 30,
+            "name" : "samsung",
+            "image" : "https://soklyphone.com/storage/Brand_Logo/new_logo/samsung-logo-1660279193xqNqc.jpg",
+            "status" : "active"
+        },
+        {
+            "id" : 31,
+            "name" : "suny",
+            "image" : "https://soklyphone.com/storage/Brand_Logo/new_logo/sony-logo-1660279321nrl38.jpg",
+            "status" : "active"
+        },
+        {
+            "id" : 32,
+            "name" : "suny",
+            "image" : "https://soklyphone.com/storage/Brand_Logo/new_logo/sony-logo-1660279321nrl38.jpg",
+            "status" : "active"
+        },
+        {
+            "id" : 33,
+            "name" : "apple",
+            "image" : "https://soklyphone.com/storage/Brand_Logo/new_logo/apple-logo-1660278979YARnJ.jpg",
+            "status" : "active"
+        },
+        {
+            "id" : 34,
+            "name" : "samsung",
+            "image" : "https://soklyphone.com/storage/Brand_Logo/new_logo/samsung-logo-1660279193xqNqc.jpg",
+            "status" : "active"
+        },
+        {
+            "id" : 35,
+            "name" : "suny",
+            "image" : "https://soklyphone.com/storage/Brand_Logo/new_logo/sony-logo-1660279321nrl38.jpg",
+            "status" : "active"
+        },
+        {
+            "id" : 36,
+            "name" : "suny",
+            "image" : "https://soklyphone.com/storage/Brand_Logo/new_logo/sony-logo-1660279321nrl38.jpg",
+            "status" : "active"
+        },
+        {
+            "id" : 37,
+            "name" : "apple",
+            "image" : "https://soklyphone.com/storage/Brand_Logo/new_logo/apple-logo-1660278979YARnJ.jpg",
+            "status" : "active"
+        },
+        {
+            "id" : 38,
+            "name" : "samsung",
+            "image" : "https://soklyphone.com/storage/Brand_Logo/new_logo/samsung-logo-1660279193xqNqc.jpg",
+            "status" : "active"
+        },
+        {
+            "id" : 39,
+            "name" : "suny",
+            "image" : "https://soklyphone.com/storage/Brand_Logo/new_logo/sony-logo-1660279321nrl38.jpg",
+            "status" : "active"
+        },
+        {
+            "id" : 40,
+            "name" : "suny",
+            "image" : "https://soklyphone.com/storage/Brand_Logo/new_logo/sony-logo-1660279321nrl38.jpg",
+            "status" : "active"
+        },
+        {
+            "id" : 41,
+            "name" : "apple",
+            "image" : "https://soklyphone.com/storage/Brand_Logo/new_logo/apple-logo-1660278979YARnJ.jpg",
+            "status" : "active"
+        },
+        {
+            "id" : 42,
+            "name" : "samsung",
+            "image" : "https://soklyphone.com/storage/Brand_Logo/new_logo/samsung-logo-1660279193xqNqc.jpg",
+            "status" : "active"
+        },
+        {
+            "id" : 43,
+            "name" : "suny",
+            "image" : "https://soklyphone.com/storage/Brand_Logo/new_logo/sony-logo-1660279321nrl38.jpg",
+            "status" : "active"
+        },
+        {
+            "id" : 44,
+            "name" : "suny",
+            "image" : "https://soklyphone.com/storage/Brand_Logo/new_logo/sony-logo-1660279321nrl38.jpg",
+            "status" : "active"
+        },
+        {
+            "id" : 45,
+            "name" : "apple",
+            "image" : "https://soklyphone.com/storage/Brand_Logo/new_logo/apple-logo-1660278979YARnJ.jpg",
+            "status" : "active"
+        },
+        {
+            "id" : 46,
+            "name" : "samsung",
+            "image" : "https://soklyphone.com/storage/Brand_Logo/new_logo/samsung-logo-1660279193xqNqc.jpg",
+            "status" : "active"
+        },
+        {
+            "id" : 47,
+            "name" : "suny",
+            "image" : "https://soklyphone.com/storage/Brand_Logo/new_logo/sony-logo-1660279321nrl38.jpg",
+            "status" : "active"
+        },
+        {
+            "id" : 48,
+            "name" : "suny",
+            "image" : "https://soklyphone.com/storage/Brand_Logo/new_logo/sony-logo-1660279321nrl38.jpg",
+            "status" : "active"
+        },
+        {
+            "id" : 49,
+            "name" : "suny",
+            "image" : "https://soklyphone.com/storage/Brand_Logo/new_logo/sony-logo-1660279321nrl38.jpg",
+            "status" : "active"
+        }
     ]
 }
