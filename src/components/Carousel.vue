@@ -48,17 +48,15 @@
                     <swiper-slide v-for="poster in posters" :key="poster.id">
                         <div class="slide-content">
                             <div class="image-content">
-                                <img style="width: 100%; height: 100%;" src="https://soklyphone.com/storage/Advertises/2025/03-03-2025/hmd-skyline-5g-1-1742975248CG9Px.png" :alt="poster.name">
+                                <img style="width: 100%; height: 100%;" :src="poster.image" :alt="poster.image">
                             </div>
                         </div>
+                        
                     </swiper-slide>
 
-                    
-
-                  
                 </swiper>
             </div>
-            
+
         </div>
     </div>
 </template>

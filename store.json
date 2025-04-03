@@ -33,17 +33,17 @@
         {
            "id"   : 1,
            "name" : "Poster1",
-           "iamge" : "https://soklyphone.com/storage/Advertises/2025/03-03-2025/hmd-skyline-5g-1-1742975248CG9Px.png"
+           "image" : "https://soklyphone.com/storage/Advertises/2025/03-03-2025/hmd-skyline-5g-1-1742975248CG9Px.png"
         },
         {
             "id"   : 2,
             "name" : "Poster2",
-            "iamge" : "https://soklyphone.com/storage/Advertises/2025/03-03-2025/hmd-pulse-pro-1742971682k4ZpR.png"
+            "image" : "https://soklyphone.com/storage/Advertises/2025/03-03-2025/hmd-pulse-pro-1742971682k4ZpR.png"
         },
         {
             "id"   : 3,
             "name" : "Poster3",
-            "iamge" : "https://soklyphone.com/storage/Advertises/2025/03-03-2025/80-1742975713eOV2V.png"
+            "image" : "https://soklyphone.com/storage/Advertises/2025/03-03-2025/80-1742975713eOV2V.png"
         }
     ]
 }
