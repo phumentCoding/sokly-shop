@@ -9,3 +9,14 @@ export const getSlides = async () => {
         console.error(error);
     }
 }
+
+//service for get posters
+export const getPosters = async () => {
+    try{
+        let response = await api.get('/posters');
+        console.log(response.data);
+        return response.data;
+    }catch(error){
+        console.error(error);
+    }
+}

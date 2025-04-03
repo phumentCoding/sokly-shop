@@ -2,7 +2,7 @@
     <div class="carousel-container my-4">
         <!-- Swiper Component -->
         <div class="row">
-            <div class="col-lg-8">
+            <div class="col-lg-9">
                 <swiper 
                     v-if="slides.length > 0"
                     :modules="modules" 
@@ -33,61 +33,32 @@
                 </swiper>
             </div>
 
-            <div class="col-lg-4">
+            <div class="col-lg-3">
                 <swiper 
+                    v-if="posters.length > 0"
                     :modules="modules" 
                     :slides-per-view="1" 
                     :space-between="50" 
                     :pagination="{ clickable: true }"
-                    :navigation="true" 
+                    :navigation="false" 
                     :loop="true" 
-                    :autoplay="{ delay: 3000, disableOnInteraction: false }"
+                    :autoplay="{ delay: 5000, disableOnInteraction: false }"
                     class="mySwiper2"
                 >
-                    <!-- Slide 1: iPhone Accessories -->
-                    <swiper-slide>
+                    <swiper-slide v-for="poster in posters" :key="poster.id">
                         <div class="slide-content">
-                            <div class="text-content">
-                                <h2>Premium Accessories</h2>
-                                <p>
-                                    Discove our collection of cases, chargers, and more.
-                                </p>
-                            </div>
                             <div class="image-content">
-                                <img src="https://example.com/accessories.png" alt="iPhone Accessories">
+                                <img style="width: 100%; height: 100%;" src="https://soklyphone.com/storage/Advertises/2025/03-03-2025/hmd-skyline-5g-1-1742975248CG9Px.png" :alt="poster.name">
                             </div>
                         </div>
                     </swiper-slide>
 
-                    <!-- Slide 2: Trade-In Offer -->
-                    <swiper-slide>
-                        <div class="slide-content discount-slide">
-                            <div class="text-content">
-                                <h2>Trade-In Your Old Device</h2>
-                                <p>Get credit toward your new iPhone.</p>
-                            </div>
-                            <div class="image-content">
-                                <img src="https://example.com/trade-in.png" alt="Trade-In Offer">
-                            </div>
-                        </div>
-                    </swiper-slide>
+                    
 
-                    <!-- Slide 3: Warranty -->
-                    <swiper-slide>
-                        <div class="slide-content">
-                            <div class="text-content">
-                                <h2>Extended Warranty</h2>
-                                <p>
-                                    Protect your device with our premium coverage.
-                                </p>
-                            </div>
-                            <div class="image-content">
-                                <img src="https://example.com/warranty.png" alt="Warranty">
-                            </div>
-                        </div>
-                    </swiper-slide>
+                  
                 </swiper>
             </div>
+            
         </div>
     </div>
 </template>
@@ -101,15 +72,17 @@
     import 'swiper/css/navigation';
     import 'swiper/css/pagination';
     import { onMounted, ref } from 'vue';
-    import { getSlides } from '../services/jsonService';
+    import { getPosters, getSlides } from '../services/jsonService';
 
     const modules = [Navigation, Pagination, Autoplay];
 
     //create state
     const slides = ref([]);
+    const posters = ref([]);
 
     onMounted( async () => {
         slides.value = await getSlides();
+        posters.value = await getPosters();
     });
 
 </script>
@@ -134,7 +107,6 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: 20px;
 }
 
 .discount-slide {
@@ -173,7 +145,7 @@
 }
 
 .image-content img {
-    max-width: 100%;
+    width: 100%;
     height: 300px;
     object-fit: contain;
     border-radius: 10px;
